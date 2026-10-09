@@ -20,6 +20,10 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-success)](#-contributing)
 [![UI](https://img.shields.io/badge/UI-%ED%95%9C%2FEN%2F%E4%B8%AD-c08bff)](#-features)
 
+<p align="center">
+  <img src="docs/hero.jpg" width="100%" alt="ONGRID — 3D ontology graph of 355 concepts with grounded answer and zero-token ZTC verification">
+</p>
+
 </div>
 
 ---
@@ -50,6 +54,14 @@ Most GraphRAG tools **retrieve** and **generate**. ONGRID adds the missing step 
 👉 **[Open ONGRID on Hugging Face](https://huggingface.co/spaces/FINAL-Bench/ONGRID)**
 
 The default universe is built from **227 real press articles** (models, benchmarks, media, topics). Click an example query and watch the graph focus, the grounded answer, and the **ZTC verdict badge** appear.
+
+## 📸 Screenshots
+
+| Ask & get a grounded answer, verified by ZTC | The whole knowledge universe |
+|---|---|
+| ![ONGRID query with ZTC verification](docs/query.jpg) | ![ONGRID 3D graph](docs/hero.jpg) |
+
+*Ask "Which model tops S1MB?" → the graph focuses, the LLM answers only from retrieved facts, and the answer is verified in zero tokens.*
 
 ## 🧩 Features
 
